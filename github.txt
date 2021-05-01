@@ -4,7 +4,7 @@ BASICS:
 
 git branch > Returns the current branch name
 git branch -a > Returns list of available branches
-git add filename.py > Adds a single a file to staging area
+git add filename.py > Adds a single file to staging area
 git add . > Adds all the modified and created files to staging area
 git config --global user.name "Shiva"
 git config --global user.email "shiva@email.com" > Required for initial setup
