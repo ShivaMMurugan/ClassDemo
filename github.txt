@@ -1,0 +1,41 @@
+Git and Github Docs
+
+BASICS:
+
+git branch > Returns the current branch name
+git branch -a > Returns list of available branches
+git add filename.py > Adds a single a file to staging area
+git add . > Adds all the modified and created files to staging area
+git config --global user.name "Shiva"
+git config --global user.email "shiva@email.com" > Required for initial setup
+git commit -m "Test" > commits a file that can be moved to github anytime. Every commit generates a random hash value also known as "commit id"
+git log > Gives the commit id of the last commit along with total commit history.
+git push > Moves your changes to remote repo.
+git pull > Refreshes remote repo with your local repo
+
+
+BRANCHING:
+
+After creating a branch in github, ex "develop" this will set upstream with main branch by default.
+
+git pull to get a branch from remote to your local machine
+
+To cut a branch from develop > git checkout -b develop remotes/origin/develop
+
+Type git branch to ensure you are actually in develop
+
+create a new file in develop branch and add few lines of code and commit.
+
+Then push your changes to remote repo under develop branch.
+
+Cherry-pick:
+
+Type git log in develop branch and copy the commit id of the recent commit
+
+move to main branch by issuing git checkout main
+
+cherry-pick your commit by issuing git cherry-pick "commit id you copied"
+
+git push 
+
+This will cherry-pick the change to main branch.
