@@ -1,1 +1,5 @@
+# SSH - SECURE SHELL HASHING Or SECURE SHELL ENCRYPTION
+```sh
+ssh-keygen
 
+```
