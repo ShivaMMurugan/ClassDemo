@@ -26,14 +26,14 @@ data_list = [
 'name': 'Linux Torvalds'
 },
 {
-	"country": "India",
-	"state": "Bengaluru",
-	"name": "Virat"
+"country": "India",
+"state": "Bengaluru",
+"name": "Virat"
 },
 {
-	"country": "India",
-	"state": "Kerala",
-	"name": "Mithun"
+"country": "India",
+"state": "Kerala",
+"name": "Mithun"
 }
 ]
 
